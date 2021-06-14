@@ -51,7 +51,7 @@ Resources:
           chmod +x /usr/local/bin/docker-compose
           mkdir -p /home/ec2-user/bookstore-api
           TOKEN="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"
-          FOLDER="https://raw.githubusercontent.com/denizbabayaka/bookstore_project.git/main/"
+          FOLDER="https://github.com/denizbabayaka/bookstore_project.git"
           curl -s --create-dirs -o "/home/ec2-user/bookstore-api/app.py" -L "$FOLDER"app.py
           curl -s --create-dirs -o "/home/ec2-user/bookstore-api/requirements.txt" -L "$FOLDER"requirements.txt
           curl -s --create-dirs -o "/home/ec2-user/bookstore-api/Dockerfile" -L "$FOLDER"Dockerfile
